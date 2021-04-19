@@ -1,0 +1,93 @@
+{
+  "name": "@coreui/coreui-free-react-admin-template",
+  "version": "3.0.0",
+  "description": "System Administration Garmex Saigon",
+  "author": {
+    "name": "WeTech Global",
+    "url": "http://wetech-global.com/",
+    "github": "https://github.com/wetechglobal/qc-garmex-frontend-admin-v.3.1.0"
+  },
+  "contributors": [
+    {
+      "name": "WeTech Team"
+    }
+  ],
+  "homepage": "https://admin-onlineshop.azurewebsites.net",
+  "copyright": "Copyright 2020-2021 WeTech Global",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+  },
+  "dependencies": {
+    "@coreui/chartjs": "^2.0.0",
+    "@coreui/coreui": "^3.2.2",
+    "@coreui/icons": "2.0.0-beta.4",
+    "@coreui/icons-react": "^1.0.1",
+    "@coreui/react": "^3.0.3",
+    "@coreui/react-chartjs": "^1.0.0",
+    "@coreui/utils": "^1.3.1",
+    "classnames": "^2.2.6",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "formik": "^2.2.5",
+    "gsap": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "7.2.0",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-select": "^3.1.1",
+    "react-spinners": "^0.9.0",
+    "react-waypoint": "^9.0.3",
+    "redux": "4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3",
+    "yup": "^0.31.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject",
+    "deploy": "sh ./deploy.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}
